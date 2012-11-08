@@ -29,5 +29,12 @@ class Deck extends \UnitTestCase {
         $this->assertEqual($deck->count(), 52); 
     
     }
+    
+    public function testCountableInterface() {
+    
+        $deck = new Cards\Deck;
+        $this->assertEqual(count($deck), 52);
+    
+    }
 
 }
