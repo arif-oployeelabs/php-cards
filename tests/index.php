@@ -43,7 +43,7 @@ function pre($val, $return = false) {
 // run tests in html reporter
 $test = new GroupTest('PHP-Cards Library Tests');
 $test->addTestCase(new \UnitTestCase\Cards\Card);
-// $test->addTestCase(new \UnitTestCase_Deck);
+$test->addTestCase(new \UnitTestCase\Cards\Deck);
 
 if (TextReporter::inCli()) {
     exit ($test->run(new TextReporter()) ? 0 : 1);
