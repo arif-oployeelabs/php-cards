@@ -12,7 +12,7 @@
  */
 namespace Cards;
 
-class Deck {
+class Deck implements \Countable {
 
     const SUIT_CLUBS = 'clubs';
 
