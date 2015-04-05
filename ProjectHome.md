@@ -1,0 +1,1 @@
+I would like to create a library that encapsulates all of the functionality one would need to create card games in PHP. The project will initially have only the functionality of a deck of cards. Eventually I will add games such as hearts, solitaire, etc. which make use of this playing card library. I intend to do so in a modular, easy-to-learn fashion.
